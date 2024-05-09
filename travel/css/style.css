@@ -1,0 +1,164 @@
+.body-top {
+    width: 80%;
+    border: none;
+    margin: auto;
+    font-family: Verdana;
+    font-style: normal;
+    font-size: normal;
+    font-weight: bold;
+    text-align: center;
+}
+header {
+    padding: 1em;
+    color: white;
+    background-color: #007196;
+    vertical-align: center;
+}
+#auth_block a, #exit_block a {
+    text-decoration: underline;
+    border: 0;
+    box-shadow: none;
+    color: white;
+}
+#auth_block a:hover, #exit_block a:hover {
+    color: rgb(190, 190, 190);
+}
+#logo {
+    max-width: 180px;
+    max-height: 140px;
+}
+.col-9 {
+    display: flex;
+}
+h1 {
+    margin: auto;
+}
+#menu {
+    background-color: #66CDAA;
+}
+a {
+    text-decoration: none;
+    border: solid white;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+}
+.nav-link {
+    color: white;
+}
+.container#menu {
+    padding-left: 0;
+    padding-right: 0;
+}
+main {
+    margin-top: 25px;
+}
+.container-fluid {
+    margin-top: 10px;
+    padding-top: 5px;
+    border: solid 2px #007196;
+}
+.tour {
+    border: solid #007196;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.tour img {
+    width: 250px;
+    height: 170px;
+    padding: 5px;
+}
+.tour p .tour img {
+    margin: 0 10px;
+}
+.btn {
+    margin-left: auto;
+    order: 999;
+    background-color: #66CDAA;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+    color: white;
+    width: auto;
+    height: 4%;
+    font-weight: bold;
+    font-size: medium;
+}
+.tour .btn {
+    width: auto;
+    height: auto;
+}
+#contacts_main {
+    padding: 1em;
+    color: #008080;
+    font-weight: normal;
+    text-align: justify;
+}
+table#contacts {
+    width: 80%;
+    margin: auto;
+}
+table#contacts td{
+    text-align: left;
+    border: 2px solid red;
+}
+form {
+    margin-top: 25px;
+}
+form p:not(.submit-btn) {
+    padding: 20px 0 20px 0;
+    background-color: aliceblue;
+    width: 35%;
+    margin: 15px 0px 15px 32.5%;
+    border: solid green;
+}
+input:not(.btn), textarea {
+    width: 50%;
+    height: 3%;
+    border: 2px solid black;
+}
+textarea[name="text"] {
+    width: 60%;
+}
+.tour a {
+    background-color: #66CDAA;
+    box-shadow: 20px 0 20px -20px #000 inset, -20px 0 20px -20px #000 inset;
+    color: white;
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 70px;
+}
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    color: white;
+    background-color: #007196;
+}
+@media screen and (max-width: 768px) {
+    #logo {
+        max-width: 100px;
+        max-height: 70px;
+    }
+    h1 {
+        font-size: 14px;
+    }
+} 
+.normal-size {
+    width: 300px;
+    height: 200px;
+  }
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tour-img {
+    width: 300px;
+}
